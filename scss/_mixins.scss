@@ -1,0 +1,18 @@
+@mixin button {
+    text-transform: uppercase;
+    padding: 20px 60px;
+    background-color: $button_blue_color;
+    color: #fff;
+    border: none;
+    font-family: "Aleo";
+    font-size: calc(12px + 4 * (100vw / 1800));
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: $button_hover_color;
+    }
+
+    @media screen and (max-width: 700px) {
+        width: 100%;
+    }
+}

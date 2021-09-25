@@ -699,7 +699,7 @@ section main {
   -ms-flex-preferred-size: 200px;
       flex-basis: 200px;
   height: 100px;
-  border-top: 1px dotted #6e6e6e;
+  border-top: 1px dashed #6e6e6e;
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   border-radius: 100%;
@@ -742,7 +742,7 @@ section main {
     border-radius: 0;
     -ms-flex-preferred-size: 50px;
         flex-basis: 50px;
-    border-left: 1px dotted #6e6e6e;
+    border-left: 1px dashed #6e6e6e;
   }
 }
 

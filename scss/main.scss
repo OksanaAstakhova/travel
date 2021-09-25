@@ -181,7 +181,7 @@
         &__dashed-line {
             flex-basis: 200px;
             height: 100px;
-            border-top: 1px dotted #6e6e6e;
+            border-top: 1px dashed #6e6e6e;
             border-left: 1px solid transparent;
             border-right: 1px solid transparent;
             border-radius: 100%;
@@ -216,7 +216,7 @@
                 width: 0;
                 border-radius: 0;
                 flex-basis: 50px;
-                border-left: 1px dotted #6e6e6e;
+                border-left: 1px dashed #6e6e6e;
             }
         }
     }
